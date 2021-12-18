@@ -1,11 +1,13 @@
 #!/bin/bash
 
+clear
 echo "We're no strangers to love"
 echo "You know the rules and so do I"
 echo "A full commitment's what I'm thinking of"
 echo "You wouldn't get this from any other guy"
 read -s -n 1 key
-if [[ $key = "" ]]; then 
+if [[ $key = "" ]]; then
+        clear	
 	echo "I just wanna tell you how I'm feeling"
 	echo "Gotta make you understand"
 	read -s -n 1 key
